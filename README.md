@@ -1,4 +1,4 @@
-AIER_CMS开发规则 <CSS样式部分>
+#AIER_CMS开发规则 <CSS样式部分>
 
 #不允许模块CSS文件直接设置任何HTML元素样式，只能设置其Class和ID样式。
 例：不直接定义 h1 div span form table 样式，而定义其Class或ID名 .good_list #goods .good_title 样式。
