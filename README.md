@@ -7,6 +7,6 @@
 例：错误用法  className="good_list" 或 id="goods"。
     正确用法  className={style.good_list} 或 id={style.goods}。
 
-##定义多个class 
+###定义多个class 
  className={style.classA + ' ' + style.classB + ' ' + style.classC}
  
