@@ -59,6 +59,8 @@ sudo apt-get install nodejs
 #####mup.json - Meteor Up配置文件
 #####settings.json - Settings for Meteor's settings API
 mkdir ~/my-meteor-deployment
+
 cd ~/my-meteor-deployment
+
 mup init
 
