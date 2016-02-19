@@ -1,6 +1,7 @@
-###1，ubuntu换源
-####A,备份源 sudo cp /etc/apt/sources.list /etc/apt/sources.list_backup
-####B,源文件
+##远程登录服务器: ssh root@101.200.162.144
+###1, ubuntu换源
+####A, 备份源: sudo cp /etc/apt/sources.list /etc/apt/sources.list_backup
+####B, 源文件
 deb http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
 
 deb http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
@@ -41,4 +42,4 @@ deb-src http://archive.ubuntu.com/ubuntu/ trusty-proposed main restricted univer
 
 deb-src http://archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse
 
-####C,更新源 sudo apt-get update
+####C, 更新源: sudo apt-get update
