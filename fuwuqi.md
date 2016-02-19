@@ -106,9 +106,14 @@ mup init
 ####E, 项目部署: mup deploy
 ####F, 显示日志: mup logs -f
 ####G, 其他mup命令:
+
 mup reconfig
+
 mup stop
+
 mup start
+
 mup restart
+
 
 
