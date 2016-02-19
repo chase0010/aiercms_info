@@ -1,7 +1,8 @@
+##服务器环境: Ubuntu 14.04 64位
 ##远程登录服务器: ssh root@101.200.162.144
 ###1, ubuntu换源
 ####A, 备份源: sudo cp /etc/apt/sources.list /etc/apt/sources.list_backup
-####B, 源文件
+####B, 源文件,目录/etc/apt/sources.list
 deb http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
 
 deb http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
