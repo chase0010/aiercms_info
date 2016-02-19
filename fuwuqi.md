@@ -52,3 +52,13 @@ sudo apt-get install -y python-software-properties software-properties-common
 sudo add-apt-repository ppa:chris-lea/node.js  
 sudo apt-get update  
 sudo apt-get install nodejs  
+##4, Meteor Up [本地]
+####A, 安装: npm install -g mup
+####B, 创建并初始化Meteor Up项目
+#####自动创建2个文件
+#####mup.json - Meteor Up配置文件
+#####settings.json - Settings for Meteor's settings API
+mkdir ~/my-meteor-deployment
+cd ~/my-meteor-deployment
+mup init
+
